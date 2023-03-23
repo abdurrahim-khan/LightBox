@@ -1,0 +1,54 @@
+img {
+    width: 500px;
+}
+img:hover {
+    cursor: pointer;
+}
+
+
+.final {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(29, 28, 28, 0.603);
+}
+.initial {
+    display: none;
+}
+#popup img {
+    
+    margin-left: 380px;
+    margin-top: 90px;
+    
+}
+#popup {
+    user-select: none;
+}
+span {
+    position: absolute;
+    top: 50%;
+    font-size: 30px !important;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+
+span:hover {
+    cursor: pointer;
+}
+.back {
+    left: 30px;
+}
+
+.forth , .close{
+    right: 50px;
+}
+.close {
+    top: 10%;
+}

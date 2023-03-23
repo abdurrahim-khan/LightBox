@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Lightbox</title>
+</head>
+<body>
+    <div class="initial" id="popup">
+        <img src="one.jpg" alt="" class="images" id="one">
+        <img src="two.jpg" alt="" class="images" id="two">
+        <img src="three.jpg" alt="" class="images" id="three">
+
+        <span id="forward" class="material-icons forth" onclick="traverse(`forward`)">arrow_forward_ios</span>
+        <span id="back" class="material-icons back" onclick="traverse(`back`)">arrow_back_ios</span>
+        <span class="material-icons close" onclick="stopLightbox()">close</span>
+
+    </div>
+   <p>, quis.
+   Nulla obcaecati, officiis, ducimus ratione non amet nesciunt placeat veniam consequatur recusandae architecto rem nisi nobis veritatis debitis magnam id, autem neque. Accusantium rem fugiat laudantium debitis voluptatum, magni distinctio?
+   Tenetur, accusantium. Soluta, odit quaerat ratione autem beatae unde asperiores obcaecati hic repellat earum, doloribus dolores ad. Ad, quibusdam repellat. Vel similique eos ipsum blanditiis molestiae, tenetur voluptatibus provident quos?
+   Laboriosam minima deserunt harum voluptatibus culpa, dolor voluptate enim odio nihil quam dolorum quo saepe id totam odit. Rem nesciunt doloremque expedita nisi sequi ullam debitis explicabo odit nihil praesentium!
+   Optio veniam asperiores sunt hic obcaecati officiis aliquam, saepe laudantium vero, iste tenetur earum volupts praesentium esse suscipit quia facilis ea, molestias tempora facere consectetur quas quam numquam accusamus nemo quos neque vero non perferendis?
+   Ut, voluptas iure? Adipisci cum atque quod? Molestiae doloribus explicabo, voluptate esse omnis facere vitae debitis quae. Architecto, repellat culpa quasi excepturi magnam ut, omnis doloremque earum facilis hic exercitationem.
+   Dicta accusamus ullam saepe quas numquam soluta dolorem facilis sit dolore, eum beatae hic incidunt. Quidem ad aliquid reprehenderit assumenda voluptas error facere nemo dolore! At quis praesentium incidunt quaerat.
+   Voluptates doloremque aliquam natus nisi aut dolor tempore, placeat, nam maxime repudiandae sequi non velit sit! Placeat officiis harum quo, error, quisquam reiciendis, laudantium alias tenetur nisi at ut accusamus!
+   Enim nulla a voluptates minus recusandae, beatae ipsam numquam. Quam necessitatibus error ipsum provident sit alias? Facere, magni sapiente mollitia, doloremque, necessitatibus expedita dolores sit distinctio deleniti possimus vel aperiam.
+   Qui obcaecati voluptatum perspiciatis harum quia suscipit maiores quos rem ipsa, et impedit, temporibus velit provident sed libero. Illum necessitatibus blanditiis repellendus aperiam autem quas, nihil maxime fuga iusto libero.
+   Iste ea recusandae magnam vero nostrum voluptatibus repellendus ipsam minus molestias sapiente hic voluptate quas iusto maxime nemo obcaecati quisquam dolorum, debitis repellat doloribus nam possimus inventore praesentium. Neque, ut!
+   Doloribus sit vitae veniam quidem ipsa officiis quo temporibus tempora, libero facilis cum numquam rem repellendus minima culpa dolorem magnam, labore eligendi ea magni. Veritatis at architecto magni vitae esse.
+   Vero provident illo ducimus consectetur porro vel atque aut deserunt dicta veniam officia modi dolorem iusto harum rem quasi id impedit optio error excepturi labore, ex unde eum earum? Amet.
+   Eum dolorum porro cupiditate adipisci! Asperiores ipsam maiores unde tempora sequi accusamus dolorum dolor esse doloribus soluta, blanditiis eveniet vitae quaerat non repudiandae perferendis vero animi, porro deserunt, harum nam.
+  adipisci voluptas inventore aliquam recusandae ea! Temporibus rem impedit veniam consequuntur, ipsa magnam tempore saepe excepturi, maiores deleniti iste?
+  </p>
+   <img src="one.jpg" alt="" onclick="startLightbox(`0`)">
+   <p>es autem, optio, deleniti quia sed, dolorem quos nulla iste expedita maiores odit aperiam dolores doloribus temporibus! Tempora dolorum ea hic optio.
+    Animi cumque incidunt nihil soluta sapiente odio, ea quod accusamus molestiae dicta adipisci culpa? Eaque atque modi aliquid doloremque, placeat illo tenetur, aut ipsa nihil voluptate obcaecati vero nesciunt hic!
+    Sunt, fuga sint incidunt repudiandae alias aut tempore temporibus illum fugit minus quaerat! Dolor culpa magnam impedit vero natus nam odit dolorem accusantium ipsa aliquid iste deleniti, accusamus iure distinctio!
+    Fugit esse harum quibusdam blanditiis doloribus quam tempore veritatis. Architecto, vero! Odit facilis excepturi, voluptatibus explicabo illum dolorum, expedita ipsam nemo necessitatibus tempore corrupti ad voluptatem sunt porro omnis! Assumenda.
+    Facilis praesentium corrupti autem est nostrum, iusto voluptatem sequi voluptas! Veritatis quo dolorum fugiat tempora vitae delectus numquam ab animi. Tempora sit nesciunt totam at id, sint minus. Et, id!
+    Tempora nemo asperiores dolor officia qui aperiam illo consequatur? Alias praesentium esse suscipit quia facilis ea, molestias tempora facere consectetur quas quam numquam accusamus nemo quos neque vero non perferendis?
+    Ut, voluptas iure? Adipisci cum atque quod? Molestiae doloribus explicabo, voluptate esse omnis facere vitae debitis quae. Architecto, repellat culpa quasi exc dolorem iusto harum rem quasi id impedit optio error excepturi labore, ex unde eum earum? Amet.
+    Eum dolorum porro cupiditate adipisci! Asperiores ipsam maiores unde tempora sequi accusamus dolorum dolor esse doloribus soluta, blanditiis eveniet vitae quaerat non repudiandae perferendis vero animi, porro deserunt, harum nam.
+    Soluta earum, temporibus hic dolorem eligendi, provident eum tenetur quaerat quibusdam molestias perspiciatis qui expedita laborum. Magni beatae saepe ab dolor, debitis sequi minus autem quis velit odit, illo repudiandae.
+    Sit voluptate nihil aperiam saepe sint nostrum, omnis corrupti voluptas quisquam autem corporis amet vitae blanditiis asperiores tempora rerum quae voluptatem earum mollitia. Nulla impedit, quibusdam natus consequatur consectetur maiores.
+    Voluptates quidem explicabo cumque nihil non assumenda, iste ipsa voluptas autem iusto inventore reiciendis ab numquam possimus eum, error labore! Enim dolore facere neque itaque id atque, quis debitis voluptatum.
+    Hic quod labore cupiditate laudantium facilis, aut atque nihil tempora officia aspernatur soluta earum reiciendis vero repellendus in nesciunt? Cum totam magni vel, non reprehenderit repellat culpa nam dolores recusandae!
+    Sit ratione sint quasi deserunt! Omnis ipsum dolores, repellendus modi tempore praesentium blanditiis, sit error id culpa dolorem est, ipsa commodi voluptas cupiditate voluptatem quaerat perspiciatis ab nihil nobis. Iure.
+    Sapiente praesentium hic aut fugit aliquid amet corporis, expedita repellendus labore, iure rerum esse totam! Atque libero officiis pariatur labore reprehenderit. Doloribus, consequuntur facere non repellat incidunt dolor rerum reprehenderit!
+    Quibusdam dolorum aliquam doloremque placeat quas. Quia facilis facere nihil at ducimus, itaque id dicta unde harum dolor illo esse provident iure nostrum consequuntur soluta sed molestias voluptate magni dolorem.
+    Ipsam error odio ab a officia eius minus alias, perspiciatis laudantium adipisci voluptas inventore aliquam recusandae ea! Temporibus rem impedit veniam consequuntur, ipsa magnam tempore saepe excepturi, maiores deleniti iste?
+   </p>
+    <img src="two.jpg" alt="" onclick="startLightbox(`1`)">
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, similique omnis at temporibus, corrupti eveniettiae doloribus explicabo, voluptate esse omnis facere vitae debitis quae. Architecto, repellat culpa quasi excepturi magnam ut, omnis doloremque earum facilis hic exercitationem.
+    Dicta accusamus ullam saepe quas numquam soluta dolorem facilis sit dolore, eum beatae hic incidunt. Quidem ad aliquid reprehenderit assumenda voluptas error facere nemo dolore! At quis praesentium incidunt quaerat.
+    Voluptates doloremque aliquam natus nisi aut dolor tempore, placeat, nam maxime repudiandae sequi non velit sit! Placeat officiis harum quo, error, quisquam reiciendis, laudantium alias tenetur nisi at ut accusamus!
+    Enim nulla a voluptates minus recusandae, beatae ipsam numquam. Quam necessitatibus error ipsum provident sit alias? Facere, magni sapiente mollitia, doloremque, necessitatibus expedita dolores sit distinctio deleniti possimus vel aperiam.
+    Qui obcaecati voluptatum perspiciatis harum quia suscipit maiores quos rem ipsa, et impedit, temporibus velit provident sed libero. Illum necessitatibus blanditiis repellendus aperiam autem quas, nihil maxime fuga iusto libero.
+ ia aspernatur soluta earum reiciendis vero repellendus in nesciunt? Cum totam magni vel, non reprehenderit repellat culpa nam dolores recusandae!
+    Sit ratione sint quasi deserunt! Omnis ipsum dolores, repellendus modi tempore praesentium blanditiis, sit error id culpa dolorem est, ipsa commodi voluptas cupiditate voluptatem quaerat perspiciatis ab nihil nobis. Iure.
+    Sapiente praesentium hic aut fugit aliquid amet corporis, expedita repellendus labore, iure rerum esse totam! Atque libero officiis pariatur labore reprehenderit. Doloribus, consequuntur facere non repellat incidunt dolor rerum reprehenderit!
+    Quibusdam dolorum aliquam doloremque placeat quas. Quia facilis facere nihil at ducimus, itaque id dicta unde harum dolor illo esse provident iure nostrum consequuntur soluta sed molestias voluptate magni dolorem.
+    Ipsam error odio ab a officia eius minus alias, perspiciatis laudantium adipisci voluptas inventore aliquam recusandae ea! Temporibus rem impedit veniam consequuntur, ipsa magnam tempore saepe excepturi, maiores deleniti iste?
+   </p>
+    <img src="three.jpg" alt="" onclick="startLightbox(`2`)">
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, similique omnis at temporibus, corrupti eveniet, ducimus architecto magni impedit fugiat incidunt iusto. Tempore excepturi praesentium quae, molestias sint nihil aut!
+    on repellat incidunt dolor rerum reprehenderit!
+    Quibusdam dolorum aliquam doloremque placeat quas. Quia facilis facere nihil at ducimus, itaque id dicta unde harum dolor illo esse provident iure nostrum consequuntur soluta sed molestias voluptate magni dolorem.
+    Ipsam error odio ab a officia eius minus alias, perspiciatis laudantium adipisci voluptas inventore aliquam recusandae ea! Temporibus rem impedit veniam consequuntur, ipsa magnam tempore saepe excepturi, maiores deleniti iste?
+    </p>
+</body>
+</html>
